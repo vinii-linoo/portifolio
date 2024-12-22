@@ -1,0 +1,107 @@
+<html>
+
+<head>
+  <base href="." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav-container">
+      <div class="logo">Meu Portfólio</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content animate">
+      <h1>Olá, eu sou Vinícius Lino</h1>
+      <p>Desenvolvedor Front-end & Designer UI/UX</p>
+      <a href="#projects" class="cta-btn">Ver Projetos</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">Sobre Mim</h2>
+    <p>Olá, neu nome é Vinícius Lino e sou um Desenvolvedor Web (Júnior), sou mais familiarizado em Front-end onde
+      entendo mais sobre. Tenho alguns Projetos, venha conferir!</p>
+
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>HTML5</h3>
+        <p>Estruturação semântica e acessível</p>
+      </div>
+      <div class="skill-card">
+        <h3>CSS3</h3>
+        <p>Estilização moderna e responsiva</p>
+      </div>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Desenvolvimento dinâmico e interativo</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">Meus Projetos</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="./img/cafeteria.png" alt="Projeto 1" class="project-img">
+        <div class="project-content">
+          <h3 class="project-title">Projeto 1 - Cafeteria</h3>
+          <p>Um site feito para uma cafeteria.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./img/compara.png" alt="Projeto 2" class="project-img">
+        <div class="project-content">
+          <h3 class="project-title">Projeto 2 - Comparador</h3>
+          <p>Um site voltado para comparação e/ou verificação de preços dentro do Mercado Livre.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./img/receita.png" alt="Projeto 3" class="project-img">
+        <div class="project-content">
+          <h3 class="project-title">Projeto 3 - Receitas</h3>
+          <p>Um site voltado para buscar receitas. Ainda em Inglês</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contato</h2>
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensagem</label>
+        <textarea id="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Vini.Linoo. Todos os direitos reservados.</p>
+  </footer>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
