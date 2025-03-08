@@ -102,6 +102,11 @@ body {
   margin: 0 auto;
 }
 
+.about a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
 .section-title {
   text-align: center;
   font-size: 2.5rem;
